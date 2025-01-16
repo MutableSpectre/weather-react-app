@@ -18,6 +18,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <footer className="App-footer">Open-Source Code by Stephanie Ratliff-Putney on <a href="https://github.com/MutableSpectre/weather-react-app" target="_blank" rel="noopener noreferrer">Github</a> and hosted on <a href="https://weatherreactapp-shecodes.netlify.app/" target="_blank" rel="noopener noreffer">Netlify</a></footer>
     </div>
   );
 }
