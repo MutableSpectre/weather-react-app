@@ -47,9 +47,9 @@ export default function Weather() {
       <footer className="contact-info">
         <p>
           This project was coded by
-          <a href="https://github.com/MutableSpectre" target="_blank"> Stephanie Ratliff-Putney</a> and is on
-          <a href="https://github.com/MutableSpectre/My-Weather-Application-SRP" target="_blank"> GitHub</a> and
-          hosted on <a href="https://my-weather-application-srp.netlify.app/" target="_blank">  Netlify.</a>
+          <a href="https://github.com/MutableSpectre" target="_blank" rel="noreferrer"> Stephanie Ratliff-Putney</a> and is on
+          <a href="https://github.com/MutableSpectre/My-Weather-Application-SRP" target="_blank" rel="noreferrer"> GitHub</a> and
+          hosted on <a href="https://my-weather-application-srp.netlify.app/" target="_blank" rel="noreferrer">  Netlify.</a>
         </p>
       </footer>
     </div>
