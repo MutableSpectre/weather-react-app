@@ -1,22 +1,20 @@
-import React from 'react';
-import './Weather.css';
+import "./Weather.css";
 
 export default function Weather() {
-    let weatherData = {
-        city: "Paris",
-        day: "Saturday",
-        condition: "Moderate rain",
-        humidity: 20,
-        wind: 13,
-        icon: "☀️",
-        temperature: 24,
-        unit: "°C",
-      };
-    
-    return (
-        <div className="Weather">
-            <h1 className="Title">Weather App</h1>
-            <header>  
+  let weatherData = {
+    city: "Paris",
+    day: "Saturday",
+    condition: "Moderate rain",
+    humidity: 20,
+    wind: 13,
+    icon: "☀️",
+    temperature: 24,
+    unit: "°C",
+  };
+
+  return (
+    <div className="Weather">
+      <header>
         <form>
           <input
             type="search"
@@ -46,6 +44,6 @@ export default function Weather() {
           </div>
         </div>
       </main>
-        </div>
-    )
+    </div>
+  );
 }
